@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "pstore"
+gem 'pstore'
 
 group :test do
-  gem "rspec"
-  gem "standardrb"
+  gem 'rspec'
+  gem 'standardrb'
 end
