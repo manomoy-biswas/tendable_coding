@@ -39,7 +39,6 @@ class Questionnaire
 
   def store_in_pstore(answers)
     # Store the answers in a PStore file.
-    p answers
     @store.transaction do
       @store[:responses] ||= []
       @store[:responses] << answers
