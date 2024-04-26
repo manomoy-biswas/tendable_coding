@@ -34,6 +34,19 @@ Ensure we can run your exercise
 6. Once it collects all input it will store the response in a json structure using pstore.
 7. Once stored, when we trigger `do_report` it will calculate the agerage everytime for all its execution and print thr report.
 
+
+## Bash Script to Execure The file
+* Make sure Ruby installed in your local machine
+> sh run.sh
+
+## Unit Testcases added
+
+# code Comment added
+
+## Docker Command
+docker build -t tendable /path/to/the/directory
+docker run -it tendable
+
 ## Bonus Points
 
 Updated readme with an explanation of your approach
