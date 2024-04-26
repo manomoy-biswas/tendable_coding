@@ -88,7 +88,7 @@ end
 
 # Main
 # Prompt the user for answers to the questions.
-# obj = Questionnaire.new
-# obj.do_prompt
+obj = Questionnaire.new
+obj.do_prompt
 # Calculate the rating for each run and the average rating across all runs.
-# obj.do_report
+obj.do_report
