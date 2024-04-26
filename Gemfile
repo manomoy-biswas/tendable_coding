@@ -6,5 +6,5 @@ gem 'pstore'
 
 group :test do
   gem 'rspec'
-  gem 'standardrb'
+  # gem 'standardrb'
 end
