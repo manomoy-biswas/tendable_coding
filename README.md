@@ -37,15 +37,21 @@ Ensure we can run your exercise
 
 ## Bash Script to Execure The file
 * Make sure Ruby installed in your local machine
-> sh run.sh
+```sh
+  sh run.sh
+```
 
 ## Unit Testcases added
 
 # code Comment added
 
 ## Docker Command
-docker build -t tendable /path/to/the/directory
-docker run -it tendable
+```sh
+  docker build -t tendable /path/to/the/directory
+```
+```sh
+  docker run -it tendable
+```
 
 ## Bonus Points
 
