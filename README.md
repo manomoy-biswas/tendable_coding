@@ -25,6 +25,13 @@ The questions can be found in questionnaire.rb
 
 Ensure we can run your exercise
 
+## Approach
+1. in the `do_promt` method, I updated the loop and added a validation on each input.
+2. I'm downcasing the input received from user to support case insensitivity
+3. If input not an expected input (i.e. yes / y / no / n) it will promt a Invalid response and ask for the input again.
+4. Once it collects all input it will store the response in a json structure using pstore.
+5. Once stored, when we trigger `do_report` it will calculate the agerage everytime for all its execution and print thr report.
+
 ## Bonus Points
 
 Updated readme with an explanation of your approach
